@@ -1,0 +1,11 @@
+.clearance{
+    border-left: solid 1px red;
+}
+
+td{
+    vertical-align: middle;
+}
+
+.title{
+    text-align: center;
+}

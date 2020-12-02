@@ -1,3 +1,11 @@
-p {
-  font-family: Lato;
+ul li{
+    list-style: none;
+}
+
+footer{
+    height: 100px;
+    line-height: 50px;
+    text-align: center;
+    background-color: black;
+    color: cornsilk;
 }

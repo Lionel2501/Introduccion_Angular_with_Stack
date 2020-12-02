@@ -1,0 +1,12 @@
+input{
+    width: 30px;
+}
+
+.btnCant{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnMas{
+    background-color: lightgreen;
+}

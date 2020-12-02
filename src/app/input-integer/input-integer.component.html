@@ -1,0 +1,9 @@
+<div class="input-group">
+    <div class="input-group">
+        <div class="input-group-prepend btnCant">
+            <button class="btn btnMas" (click)="upQuantity()">+</button>
+            <button class="btn btnMeno" (click)="downQuantity()">-</button>
+        </div>
+    </div>
+    <input type="text" class="text-center" [(ngModel)]="quantity" (keyUp)="changeQuantity($event)">
+</div>
